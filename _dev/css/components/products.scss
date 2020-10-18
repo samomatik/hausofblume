@@ -228,7 +228,7 @@
   @include box-shadow();
   padding: $medium-space $large-space;
   margin-top: 2rem;
-  background: #fff;
+  background: $very-light-background;
 
   .tab-pane {
     padding-top: $medium-space;
@@ -246,6 +246,7 @@
         color: $brand-primary;
         border: none;
         border-bottom: $brand-primary 3px solid;
+        background: $dark-background;
       }
 
       &:hover {

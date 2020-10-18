@@ -8,7 +8,7 @@ $product-description-height: 70px;
   .products {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: space-around;
   }
 
   .product-thumbnail {
@@ -28,7 +28,7 @@ $product-description-height: 70px;
     width: $thumbnail-size;
     height: 318px;
     margin-bottom: 1.563rem;
-    background: #fff;
+    background: $light-background;
     @include box-shadow();
 
     &:hover,
@@ -130,7 +130,7 @@ $product-description-height: 70px;
     z-index: 3;
     width: $thumbnail-size;
     height: $product-description-height;
-    background: #fff;
+    background: $very-light-background;
   }
 
   .product-miniature {

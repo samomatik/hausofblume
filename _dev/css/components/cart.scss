@@ -29,7 +29,7 @@
       }
       &.cart-total {
         padding: 0.5rem;
-        background-color: $gray-light;
+        background-color: $light-background;
         .label,
         .value {
           font-weight: 600;
@@ -81,6 +81,9 @@
       color: $brand-primary;
     }
   }
+  .card {
+    background: $very-light-background;
+  }
   .card-block {
     padding: 1rem;
     h1 {
@@ -95,6 +98,9 @@
 
 /** CART RIGHT **/
 .cart-grid-right {
+  .card {
+    background: $very-light-background;
+  }
   .promo-discounts {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;

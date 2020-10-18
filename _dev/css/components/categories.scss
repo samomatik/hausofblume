@@ -19,6 +19,7 @@
 .block-category {
   min-height: 13.75rem;
   margin-bottom: 1.563rem;
+  background: $very-light-background;
   .block-category-inner {
     display: flex;
     justify-content: space-between;
@@ -80,7 +81,7 @@
     padding: $small-space;
     color: $gray-darker;
     cursor: pointer;
-    background: #fff;
+    background: $very-light-background;
     border: $input-btn-border-width solid $input-border-color;
     @include box-shadow-light();
   }
@@ -89,7 +90,7 @@
     padding: $small-space $medium-space;
     color: $gray-darker;
     &:hover {
-      color: #fff;
+      color: $very-light-background;
       text-decoration: none;
       background: $brand-primary;
     }
@@ -138,7 +139,7 @@
     color: $gray-darker;
     background: $gray-lighter;
     &:hover {
-      color: #fff;
+      color: $very-light-background;
       text-decoration: none;
       background: $brand-primary;
     }
@@ -159,7 +160,7 @@
   @include box-shadow();
   padding: 1.563rem 1.25rem;
   margin-bottom: 1.563rem;
-  background: #fff;
+  background: $very-light-background;
   .facet {
     .collapse {
       display: block;
@@ -258,7 +259,7 @@
   @include box-shadow();
   padding: 1.563rem 1.25rem;
   margin-bottom: 1.563rem;
-  background: #fff;
+  background: $very-light-background;
   .category-sub-menu {
     margin-top: $small-space;
     .category-sub-link {
