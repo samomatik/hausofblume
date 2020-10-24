@@ -57,10 +57,11 @@ $display4-size: 1.25rem;
 $display4-weight: 400;
 $text-muted: $gray;
 
-$background: #fbe5ed;
-$very-light-background: #fffdfd;
-$light-background: #F2E9EC;
-$dark-background: #F2DCE4;
+$background: #fff7fa;
+$gray-bg: #EDEDED;
+$very-light-background: #f8f8f8;
+$light-background: #EDEDED;
+$dark-background: #e4dede;
 
 // Forced to do this to avoid a breaking change
 /* stylelint-disable */
